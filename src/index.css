@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ccc;
+}
+
+body,
+html {
+  font-family: "Noto Serif SC", serif;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+[data-component="app"] {
+  padding: 1em;
+  min-height: 10em;
+  color: #222;
+}
